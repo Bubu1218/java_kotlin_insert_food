@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
                 // 切換 Activity
                 Intent intent_insert=new Intent(MainActivity.this,InsertActivity.class);
                 startActivity(intent_insert);
-
-                System.out.println("按鈕已按下");
             }
         });
     }
